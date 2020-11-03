@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment">
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/name"
+     android:id="@+id/name1"
+     android:layout_marginTop="70dp"
+     android:textSize="20sp"/>
+<EditText
+    android:layout_toRightOf="@id/name1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/enteredname"
+    android:layout_marginTop="50dp"
+    />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/phone_number"
+     android:id="@+id/name2"
+     android:textSize="20sp"
+     android:layout_marginTop="120dp"/>
+<EditText
+    android:layout_toRightOf="@id/name2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/enteredphone"
+    android:layout_marginTop="100dp"/>
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/add"
+     android:text="@string/save"
+     android:layout_marginTop="200dp"
+     android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
